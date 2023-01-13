@@ -38,7 +38,7 @@ body {
   text-align: center;
 }
 .hub-title {
-  font-weight: ;
+  font-weight: 900;
   margin: 2rem;
   font-size: 1.4rem;
 }
@@ -95,10 +95,28 @@ body {
 display: block;
 margin-left: 0;
 width: 150px;
-box-shadow: 0px 1px 5px 1px black;
+box-shadow: 0px 1px 2px 1px black;
+
 
   }
+  .register:hover{
+    background-color:hsl(300, 69%, 71%) ;
+    color: white;
+    cursor: pointer;
+  }
+
+
   .social{
     text-align: right;
   }
+  .social a{
+    text-decoration: none;
+  }
+  
+  .fab:hover{
+    color:hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+   }
+  
+
 }
